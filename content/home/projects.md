@@ -29,8 +29,8 @@ filter_default = 0
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Path Planning"
+  tag = ".path-planning"
 
 [[filter]]
   name = "Other"

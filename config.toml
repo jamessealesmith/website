@@ -1,6 +1,6 @@
 baseurl = "https://jamessealesmith.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-title = "Academic"
-copyright = "&copy; 2017 Your Name"
+title = "James Smith"
+copyright = "&copy; 2017 James Smith"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -38,20 +38,20 @@ defaultContentLanguageInSubdir = false
   font = "default"
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "James Smith"
+  role = "Graduate Student"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Auburn University", url = "" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
+  email = "jss0036@auburn.edu"
+  address = "Broun 468, Auburn University, AL, 36849, USA"
+  office_hours = "Monday 1:00 to 3:00 or email for appointment"
+  phone = "(256) 714-7168"
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -86,7 +86,7 @@ defaultContentLanguageInSubdir = false
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
-  math = false
+  math = true
 
   # Highlight.js options
   #   highlight
@@ -115,7 +115,7 @@ defaultContentLanguageInSubdir = false
   #
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
-  highlight = true
+  highlight = false
   highlight_languages = []
   # highlight_style = "github"
 
@@ -152,7 +152,7 @@ defaultContentLanguageInSubdir = false
   [params.publications]
     # Date format (refer to Go's date format: http://fuckinggodateformat.com )
     #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-    date_format = "January, 2006"
+    date_format = "2006-01-02"
 
   # Configuration of project pages.
   [params.projects]
@@ -187,22 +187,27 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:test@example.org"
+    link = "mailto:jss0036@auburn.edu"
 
   [[params.social]]
-    icon = "twitter"
+    icon = "linkedin"
     icon_pack = "fa"
-    link = "//twitter.com/GeorgeCushen"
+    link = "https://www.linkedin.com/in/jamessealesmith/"
 
   [[params.social]]
-    icon = "google-scholar"
+    icon = "zotero"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://www.zotero.org/jamessealesmith"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/gcushen"
+    link = "https://github.com/jamessealesmith"
+    
+    [[params.social]]
+    icon = "instagram"
+    icon_pack = "fa"
+    link = "//instagram.com/jamessealesmith"
 
 
 # Navigation Links
@@ -220,10 +225,10 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 2
 
-[[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
+#[[menu.main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 3
 
 [[menu.main]]
   name = "Projects"

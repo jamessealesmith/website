@@ -14,15 +14,8 @@ subtitle = ""
 weight = 60
 
 +++
+I am a Graduate Teaching Assistant for the following courses at Auburn University:
 
-This is an example of using the *custom* widget to create your own homepage section.
-
-I am a teaching instructor for the following courses at University X:
-
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+- ELEC 2110: Electric Circuit Analysis (Summer 2017)
+- ELEC 2210: Digital Electronics (Fall 2017)
+- ENG 1110: Introduction to Electrical Engineering (Fall 2017)
