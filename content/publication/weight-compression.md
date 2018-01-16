@@ -1,6 +1,6 @@
 +++
 title = "Improvement of Second Order Gradient-Descent Algorithm by Adaptable Weight Compression"
-date = "2017-10-23"
+date = "2017-11-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["James S. Smith", "Bo Wu", "Bogdan M. Wilamoswki"]
@@ -17,8 +17,8 @@ authors = ["James S. Smith", "Bo Wu", "Bogdan M. Wilamoswki"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Submitted for publication"
-publication_short = "Submitted for publication"
+publication = "submitted for publication"
+publication_short = "submitted for publication"
 
 # Abstract and optional shortened version.
 abstract = "Difficult experiments in training neural networks often fail to converge due to what is known as the flat spot problem, where the gradient of hidden neurons in the network diminish in value, rending the weight update process ineffective. This paper proposes a Second Order Weight Compression Algorithm, implemented in Levenberg-Marquardt with Weight Compression (LM-WC), which combats the flat spot problem by compressing neuron weights to push neuron activation out of the saturated region and close to the linear region. The presented algorithm contains an adaptable compression parameter, which is adjusted to avoid training failure and increase the probability of neural network convergence. Several experiments are presented and discussed to demonstrate the success of LM-WC against standard Levenberg-Marquardt (LM) and LM with random restarts on standard benchmark datasets for varying network architectures. Our results suggest that the LM-WC algorithm can improve training success by ten times or more compared to other methods."
@@ -33,9 +33,9 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
+projects = ["weight-compression"]
 
 # Links (optional).
-
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

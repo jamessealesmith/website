@@ -1,6 +1,6 @@
 +++
 title = "Arbitrarily Branched Antenna Optimization by Genetic Algorithms"
-date = "2017-04-13"
+date = "2018-01-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["James S. Smith", "Michael E. Baginski"]
@@ -17,13 +17,12 @@ authors = ["James S. Smith", "Michael E. Baginski"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In preparation"
-publication_short = "In preparation"
+publication = "in preparation"
+publication_short = "in preparation"
 
 # Abstract and optional shortened version.
-abstract = "The goal of this research is to find the optimal number, length, orientation, and placement of straight wires to create a multiple element antenna capable of focusing radiated power (i.e., Gain) in very specific sectors of space (Antenna footprint). Antennas are transducers that convert electrical current to radiated electromagnetic power and focus power in specific directions. The radiated power from antennas is typically represented in a three-dimensional pattern (radiation pattern). An ideal radiation pattern sought by engineers is one that maximizes the coverage in one area, thus focusing all of the power from the antenna in that direction (minimal power radiated in undesired directions). It is not the case with antennas that the simpler designs are always best; generally, more complex antenna designs are required to produce highly directional radiation patterns. The solution space for such a complex antenna is infinitely large and risks convergence on non-optimal solutions with many optimization techniques. In order to search such a solution space, this research utilizes a Genetic Algorithm (GA), an optimization technique that mimics natural selection occurring in nature. This research differs from similar projects in that we allow the antenna to “branch out”, similar to a large tree. This further increases the potential for more desirable antenna patterns by increasing the solution space that our GA must search. Using this technique, we have been able to produce desired radiation patterns from complex, multi-bend antenna solutions. This research can be replicated with various desired radiation patterns for use in various industries, such as cellular towers and geometry-specific wireless data transfers."
-
-abstract_short = "The goal of this research is to find the optimal number, length, orientation, and placement of straight wires to create a multiple element antenna capable of focusing radiated power (i.e., Gain) in very specific sectors of space (Antenna footprint). This research utilizes a Genetic Algorithm (GA), an optimization technique that mimics natural selection occurring in nature, and differs from similar projects in that we allow the antenna to “branch out”, similar to a large tree. Using this technique, we have been able to produce desired radiation patterns from complex, multi-bend antenna solutions."
+abstract = "This paper presents an optimization method used to design antennas capable of broadcasting electromagnetic energy in specific, predefined regions of space. These types of highly directional antennas are very beneficial in tracking radars where maximum “power on target” is crucial for telecommunication systems trying to maximize coverage. The presented method involves using a technique known as a genetic algorithm (GA) to optimize a “branching tree antenna,” where the antenna wire configuration resembles the branch structure of a tree. The advantage of our method is that it allows antennas to branch in arbitrary directions with no symmetrical constraints applied in other methods. This paper also lays out a systematic approach to developing an objective function for any desired power pattern. Telecommunication systems and specifically cellular towers trying to focus the signal power in populated areas and eliminate coverage in unpopulated areas (city reservoirs, landfills, etc.) will greatly benefit from these antenna designs."
+abstract_short = "This paper presents an optimization method used to design antennas capable of broadcasting electromagnetic energy in specific, predefined regions of space."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -34,8 +33,7 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-
-# Links (optional).
+projects = ["antenna"]
 
 
 # Custom links (optional).

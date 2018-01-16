@@ -17,8 +17,8 @@ authors = ["Bo Wu","James S. Smith", "Bogdan M. Wilamoswki"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Submitted for publication"
-publication_short = "Submitted for publication"
+publication = "submitted for publication"
+publication_short = "submitted for publication"
 
 # Abstract and optional shortened version.
 abstract = ""
