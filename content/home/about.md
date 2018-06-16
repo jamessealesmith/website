@@ -41,4 +41,4 @@ raspberry pi animal detection system to developing a second-order optimization
 algorithm.  Outside of school, I enjoy racing triathlons, marathons, and even 
 ultramarathon distance races!
 
-This page is still a work in progress. Please {{% staticref "files/cv.pdf" "newtab" %}}read my cv{{% /staticref %}} for a complete overview of my work.
+This page is still a work in progress. Please {{% staticref "files/cv.pdf" "newtab" %}}read my CV{{% /staticref %}} for a complete overview of my work.
