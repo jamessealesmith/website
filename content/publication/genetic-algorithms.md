@@ -1,6 +1,6 @@
 +++
-title = "Arbitrarily Branched Antenna Optimization by Genetic Algorithms"
-date = "2018-01-01"
+title = "Thin wire antenna design using a novel branching scheme and genetic algorithm optimization"
+date = "2018-02-20"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["James S. Smith", "Michael E. Baginski"]
@@ -17,11 +17,11 @@ authors = ["James S. Smith", "Michael E. Baginski"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "in preparation"
-publication_short = "in preparation"
+publication = "submitted for publication"
+publication_short = "submitted for publication"
 
 # Abstract and optional shortened version.
-abstract = "This paper presents an optimization method used to design antennas capable of broadcasting electromagnetic energy in specific, predefined regions of space. These types of highly directional antennas are very beneficial in tracking radars where maximum “power on target” is crucial for telecommunication systems trying to maximize coverage. The presented method involves using a technique known as a genetic algorithm (GA) to optimize a “branching tree antenna,” where the antenna wire configuration resembles the branch structure of a tree. The advantage of our method is that it allows antennas to branch in arbitrary directions with no symmetrical constraints applied in other methods. This paper also lays out a systematic approach to developing an objective function for any desired power pattern. Telecommunication systems and specifically cellular towers trying to focus the signal power in populated areas and eliminate coverage in unpopulated areas (city reservoirs, landfills, etc.) will greatly benefit from these antenna designs."
+abstract = "This paper presents a novel optimization method used to design thin wire antennas to approximate any arbitrary antenna gain pattern.  These types of antenna designs may be useful for specific tracking-search radars or telecommunication systems trying to maximize the antenna footprint without significant sidelobe power loss. A genetic algorithm (GA) is used to optimize the design of a thin wire antenna to match a predefined antenna pattern. Two different three-dimensional antenna topologies are allowed. The first is the conventional bent long wire or “crooked wire” antenna and the second a “branching tree antenna”. The branching tree antenna resembles the structure of a tree. The advantage of the branching tree topology is that it allows antennas to branch in several directions at each segment end. This paper also describes a systematic approach of developing an objective function for any desired power pattern. "
 abstract_short = "This paper presents an optimization method used to design antennas capable of broadcasting electromagnetic energy in specific, predefined regions of space."
 
 # Featured image thumbnail (optional)

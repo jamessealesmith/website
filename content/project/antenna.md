@@ -1,9 +1,9 @@
 +++
 # Date this page was created.
-date = "2018-01-01"
+date = "2018-02-01"
 
 # Project title.
-title = "Arbitrarily Branched Antenna Optimization by Genetic Algorithms"
+title = "Thin wire antenna design using a novel branching scheme and genetic algorithm optimization"
 
 # Project summary to display on homepage.
 summary = "Optimization project to design arbitrarily branching antenna structures capable of producing complex radiation patterns that cannot be designed"
@@ -28,19 +28,32 @@ math = false
 
 +++
 
-Note: Although I have moved on to neural networks and other ML projects, I plan to use this project as a benchmark for future optimization work (including a neural network approach). 
+Note: Although I have moved on to deep learning, I have really enjoyed working on 
+this computational-intelligence project!
 
-This project uses Genetic Algorithms (GAs) and the Method of Moments (MoM) to explore arbitrarily branching antenna structures capable of producing complex radiation patterns that cannot be designed. This is an optimization problem with my work focusing on the antenna geometry and objective function. 
+Our paper presents a novel optimization method used to design thin wire antennas to 
+approximate any arbitrary antenna gain pattern.  These types of antenna designs may be 
+useful for specific tracking-search radars or telecommunication systems trying to 
+maximize the antenna footprint without significant sidelobe power loss.
 
-Briefly, a GA can be organized as:
+A genetic algorithm (GA) is used to optimize the design of a thin wire antenna to match 
+a predefined antenna pattern. Briefly, a GA can be organized as:
 
 
 <img src="/img/antenna/GA_overview.png" width="2000" height="1000">
 
 
-A GA is a classic optimization technique for working with antenna design. A classic problem is the "crooked wire antenna", where a GA optimizes thin wire elements to find the best antenna structure for a given problem. Our addition to this field is the exploration of branching antennas. Rather than describing structures with a specific number of total elements, these antennas can be described with a "branching factor" and "depth", or:
+A GA is a classic optimization technique for working with antenna design. The predecessor 
+for our work is the "crooked wire antenna", where a GA optimizes thin wire elements to find 
+the best antenna structure for a given problem. Our addition to this field is the 
+exploration of branching antennas. Rather than describing structures with a specific 
+number of total elements, these antennas can be described with a 
+"branching factor" and "depth", or:
+
 <img src="/img/antenna/branch_2d.png" width="1000" height="1250">
-Here is an example from our work where we have attempted to focus peak power gains in the first upper quartersphere of a radiation pattern. Can you believe that this antenna:
+
+Here is an example from our work where we have attempted to focus peak power gains 
+in the first upper quartersphere of a radiation pattern. Can you believe that this antenna:
 
 <img src="/img/antenna/ant_struct.png" width="1000" height="1000">
 
@@ -48,4 +61,6 @@ could produce this pattern?
 
 <img src="/img/antenna/1_branched_sample.png" width="1000" height="1000">
 
-This project has been in place since I was an undergraduate. After many failed attempts, we are currently wrapping up and preparing to publish!
+This project has been in place since I was an undergraduate. After many failed attempts, 
+we finally wrapped up in February 2018 and submitted to IEEE Transactions on Antennas
+and Propagation!

@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2018-01-15"
+date = "2018-03-15"
 
 # Project title.
 title = "Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks"
@@ -13,7 +13,7 @@ image_preview = "spectral/DCT.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["neural-networks"]
+tags = ["deep-learning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -26,32 +26,31 @@ math = false
 
 +++
 
-This work explores pooling operations for convolutional neural networks (CNNs). Many common pooling methods
-such as max pooling and mean pooling lose information about the data (i.e., the image
-cannot be restored after pooling). Spectral pooling techniques
-can retain information about data (i.e., the image could be restored after pooling) while
-still achieving the same parameter reduction. Study the pooling effects on the image below:
+Pooling operations for convolutional neural networks provide the opportunity to greatly reduce network parameters, leading to faster training time and less data overfitting. Unfortunately, many of the common pooling methods such as max pooling and mean pooling lose information about the data (i.e., they are lossy methods).
+
+Recently, spectral pooling has been utilized to pool data in the spectral domain. By doing so, greater information can be retained with the same network parameter reduction as spatial pooling.
+
+Study the pooling effects on the image below:
 
  <img src="/img/spectral/pooling.png" width="2000" height="1000">
 
-We see the affects of max pooling (first row), mean pooling (second row), DFT pooling 
-(third row), and DCT pooling (fourth row) when the image is restored. Notice that the 
+We see the effects of max pooling (first row), mean pooling (second row), Discrete Fourier Transform (DFT) pooling 
+(third row), and Discrete Cosine Transform (DCT) pooling (fourth row) when the image is restored. Notice that the 
 bird image is much better retained with the spectral methods.
 
-This project implements pooling using the Discrete Cosine Transform (DCT) instead of the Discrete
-Fourier Transform (DFT) given its ability to pack more information into fewer spectra. The
-project compares different DCT pooling and convolution implementations given that there is no direct Fast Fourier
-Transform (FFT) approach for DCT and, furthermore, the convolution process cannot be done
+This project implements pooling using the DCT instead of the DFT given the DCT's ability to pack more information into fewer spectra. The
+project compares different DCT pooling and convolution implementations, which is important because the convolution process cannot be done
 in the DCT domain (as it can be done in the DFT domain).
 
-This work uses a tensor-based convolutional neural network in Matlab. The CNN
+This work uses a tensor-based convolutional neural network in Matlab (link at bottom of page). The CNN
 framework is described in the figure below:
 
 <img src="/img/spectral/DCT_small.png" width="2000" height="1000">
 
-After the code is fine tuned, it will be re-written in Python and be used for big-data problems,
-including fMRI data from the Auburn MRI center. A journal article discussing the theoretical
-framework and results on benchmark problems is currently in preparation to submit for
-publication in IEEE Transaction on Neural Networks and Learning Systems.
+This work was presented at the International Conference on Artificial Intelligence and Soft Computing in Zakopane, Poland (June 2018). 
 
-My latest project code can be found at https://github.com/jamessealesmith/ConvNetDCT
+https://link.springer.com/chapter/10.1007/978-3-319-91253-0_23
+
+Currently, an updated code base (written for Python Tensorflow) is being prepared for release on Github. My latest project code (Matlab) can be found at https://github.com/jamessealesmith/ConvNetDCT
+
+Check out some more work with this project on the Deep Autoencoder page!

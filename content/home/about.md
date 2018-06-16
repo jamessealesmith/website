@@ -2,7 +2,7 @@
 # About/Biography widget.
 widget = "about"
 active = true
-date = "2017-10-28T00:00:00"
+date = "2018-06-06T00:00:00"
 
 # Order that this section will appear in.
 weight = 5
@@ -11,20 +11,28 @@ weight = 5
 [interests]
   interests = [
     "Deep Learning",
-    "Optimization",
+    "Generative Models",
     "Image Processing"    
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Bachelor's in Electrical Engineering"
+  course = "Ph.D. in Machine Learning"
+  institution = "Georgia Institute of Technology"
+  year = "in progress (2018)"
+[[education.courses]]
+  course = "Master of Science in Electrical Engineering"
+  institution = "Auburn University"
+  year = 2018
+[[education.courses]]
+  course = "Bachelor of Electrical Engineering"
   institution = "Auburn University"
   year = 2017
- 
 +++
 
 # Biography
 
-James Smith is a graduate student advised by Dr. Bogdan M. Wilamowski in the Department of Electrical and Computer Engineering at Auburn University. He recieved his Bachelor's in Electrical Engineering (minors in Computer Science and Political Science) from Auburn in 2017 while working with Dr. Michael E. Baginski. Outside of school, James also enjoys racing with the Auburn Triathletes and competing in marathon and ultramarathon distance races.
+Hi! I’m pursing a Ph.D. in Machine Learning at Georgia Tech. I graduated with my bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. Working under Dr. Bogdan M. Wilamowski, my thesis focused in deep learning algorithms and architectures for practical deployment. 
+I enjoy getting my hands dirty in machine learning with projects ranging from a raspberry pi animal detection system to developing a second-order optimization algorithm.  Outside of school, I enjoy racing triathlons, marathons, and even ultramarathon distance races!
 
 This page is still a work in progress. Read my {{% staticref "files/cv.pdf" "newtab" %}}cv{{% /staticref %}} for a complete overview of my work.

@@ -31,7 +31,7 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, or `coffee`.
-  color_theme = "default"
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -43,13 +43,13 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Auburn University", url = "" } ]
+  organizations = [ { name = "Georgia Institute of Technology", url = "http://ml.gatech.edu" },{ name = "Auburn University", url = "https://www.eng.auburn.edu/ece/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "jss0036@auburn.edu"
-  address = "Broun 468, Auburn University, AL, 36849, USA"
-  office_hours = "Monday 1:00 to 3:00 or email for appointment"
+  # address = "Broun 468, Auburn University, AL, 36849, USA"
+  # office_hours = "Monday 1:00 to 3:00 or email for appointment"
   phone = "(256) 714-7168"
   skype = ""
   telegram = ""
@@ -66,8 +66,8 @@ defaultContentLanguageInSubdir = false
   #   Get your coords: Right-click place on Google Maps. Select 'What's here?'. At the bottom is a card with the coords.
   #   Disable Google Maps by clearing all three options to "".
   google_maps_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  #latitude = "37.4275"
+  #longitude = "-122.1697"
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -203,11 +203,6 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "https://github.com/jamessealesmith"
-    
-    [[params.social]]
-    icon = "instagram"
-    icon_pack = "fa"
-    link = "//instagram.com/jamessealesmith"
 
 
 # Navigation Links

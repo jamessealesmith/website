@@ -29,8 +29,8 @@ filter_default = 0
   tag = "*"
   
 [[filter]]
-  name = "Neural Networks"
-  tag = ".neural-networks"
+  name = "Deep Learning"
+  tag = ".deep-learning"
   
 [[filter]]
   name = "Optimization"

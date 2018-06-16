@@ -1,9 +1,9 @@
 +++
 # Date this page was created.
-date = "2018-01-15"
+date = "2018-05-31"
 
 # Project title.
-title = "Weight Compression Gradient-Descent Algorithm"
+title = "Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression"
 
 # Project summary to display on homepage.
 summary = "Gradient-descent algorithm purposed to evade the vanishing gradient problem"
@@ -13,7 +13,7 @@ image_preview = "wc/neuron_ex.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["neural-networks"]
+tags = ["deep-learning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -27,14 +27,28 @@ math = false
 
 +++
 
-A typical trade-off faced by many users of neural networks is that of network size versus
-ease of training. It is desired to train networks using a minimum number of neurons 
-given that they are less likely to be over-trained and therefore retain great 
-generalization abilities. However, it is often more difficult to train a compact network;
-there are likely few existing solutions and, assuming initial random weights, it can
-take many attempts to perform successful training.
+Difficult experiments in training neural networks often fail to converge due to what is 
+known as the flat spot problem, where the gradient of hidden neurons in the network 
+diminish in value, rending the weight update process ineffective. Whereas a first-order 
+algorithm can address this issue by learning parameters to normalize neuron activations, 
+second-order algorithms cannot afford additional parameters given that they include a 
+large Jacobian matrix calculation. 
 
-Training compact networks typically fail due to what is known as the diminishing gradient
+Our paper proposes Levenberg-Marquardt with Weight Compression (LM-WC), which combats 
+the flat spot problem by compressing neuron weights to push neuron activation out of 
+the saturated region and close to the linear region. Our algorithm requires no 
+additional learned parameters and contains an adaptable compression parameter, which is 
+adjusted to avoid training failure and increase the probability of neural network 
+convergence. Several experiments are presented and discussed in our paper to demonstrate the 
+success of LM-WC against standard Levenberg-Marquardt (LM) and LM with random restarts 
+on benchmark datasets for varying network architectures. Our results suggest that the 
+LM-WC algorithm can improve training success by ten times or more compared to other methods.
+
+Our paper has been accepted for publication in IEEE Transactions on Neural Networks 
+and Learning Systems! The link will be posted here when available. See below for a better 
+description of the flat spot problem:
+
+Training compact networks typically fail due to what is known as the flat spot
 problem. This is where a gradient-descent algorithm converges on a local optima due to
 diminishing gradients that disable the learning process. Consider a neuron described by
 the activation function below:
@@ -56,4 +70,4 @@ This algorithm explores a new systematic
 approach that can be applied to several different gradient-descent algorithms and is proven
 to find successful solutions more often than competing approaches.
 
-The findings of this project have been submitted to IEEE Transactions on Neural Networks and Learning Systems. We hope to hear back soon!
+My code for this project can be found at https://github.com/jamessealesmith/nn_trainer_wc

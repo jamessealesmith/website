@@ -1,6 +1,6 @@
 +++
 title = "DCMDS: Density-Concentrated Multi-Dimensional Scaling Algorithm for Data Visualization"
-date = "2017-09-13"
+date = "2018-01-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Bo Wu","James S. Smith", "Bogdan M. Wilamoswki"]
