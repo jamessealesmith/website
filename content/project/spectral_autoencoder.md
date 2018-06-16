@@ -6,7 +6,7 @@ date = "2018-04-15"
 title = "Spectral Methods for Deep Convolutional AutoEncoders"
 
 # Project summary to display on homepage.
-summary = "spectral pooling and upsampling techniques for deep convolutional autoencoders"
+summary = "Spectral pooling and upsampling techniques for deep convolutional autoencoders"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "DAE.pdf"

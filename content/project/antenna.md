@@ -6,7 +6,8 @@ date = "2018-02-01"
 title = "Thin wire antenna design using a novel branching scheme and genetic algorithm optimization"
 
 # Project summary to display on homepage.
-summary = "Optimization project to design arbitrarily branching antenna structures capable of producing complex radiation patterns that cannot be designed"
+summary = "Optimization project to design thin wire antennas capable of 
+approximating any arbitrary antenna gain pattern"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "antenna/ant_struct.png"

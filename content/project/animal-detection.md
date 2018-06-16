@@ -6,7 +6,7 @@ date = "2018-06-15"
 title = "Animal Detection with Deep Learning"
 
 # Project summary to display on homepage.
-summary = "This guide gives instructions and source code to build a portable animal detection system using a raspberry pi 3 B+, compatible camera, and other optional hardware. The code works “out-of-the-box”, but this report highlights key directions to pursue a more sophisticated project."
+summary = "This guide gives instructions and source code to build a portable animal detection system using a Raspberry Pi 3 B+, compatible camera, and other optional hardware. The code works “out-of-the-box,” but this report highlights key directions to pursue a more sophisticated project."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "animal_detect.png"
