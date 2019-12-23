@@ -1,6 +1,6 @@
 +++
 title = "Thin wire antenna design using a novel branching scheme and genetic algorithm optimization"
-date = "2018-02-20"
+date = "2019-03-04"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["James S. Smith", "Michael E. Baginski"]
@@ -17,8 +17,8 @@ authors = ["James S. Smith", "Michael E. Baginski"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "submitted for publication"
-publication_short = "submitted for publication"
+publication = "IEEE Transacations on Antennas and Propagation"
+publication_short = "IEEE TAP"
 
 # Abstract and optional shortened version.
 abstract = "This paper presents a novel optimization method used to design thin wire antennas to approximate any arbitrary antenna gain pattern.  These types of antenna designs may be useful for specific tracking-search radars or telecommunication systems trying to maximize the antenna footprint without significant sidelobe power loss. A genetic algorithm (GA) is used to optimize the design of a thin wire antenna to match a predefined antenna pattern. Two different three-dimensional antenna topologies are allowed. The first is the conventional bent long wire or “crooked wire” antenna and the second a “branching tree antenna”. The branching tree antenna resembles the structure of a tree. The advantage of the branching tree topology is that it allows antennas to branch in several directions at each segment end. This paper also describes a systematic approach of developing an objective function for any desired power pattern. "
@@ -38,6 +38,7 @@ projects = ["antenna"]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+url_pdf = "https://ieeexplore.ieee.org/document/8658161"
 
 # Does the content use math formatting?
 math = true

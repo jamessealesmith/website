@@ -6,7 +6,7 @@ date = "2018-06-15"
 title = "Understanding Features in Generative Adversarial Networks"
 
 # Project summary to display on homepage.
-summary = "Current project to better understand features in GAN layers"
+summary = "Class project to better understand features in GAN layers"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "transferred_final.png"
@@ -27,6 +27,5 @@ math = false
 
 +++
 
-This is an exciting project working with Dr. Anh Nguyen from Auburn University and a few 
-classmates, Matthew Denton and Josh Gaston. I cannot say much until we submit our 
-publication but please contact me for questions!
+
+For my deep learning course in Spring 2017 (instructor: <a href="http://www.eng.auburn.edu/~anhnguyen/">Anh Nguyen</a>), my group explored feature transfer in generative adversarial networks. {{% staticref "files/gan_transfer.pdf" "newtab" %}}Check it out here!

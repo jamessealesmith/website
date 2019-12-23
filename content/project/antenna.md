@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2018-02-01"
+date = "2018-05-01"
 
 # Project title.
 title = "Thin wire antenna design using a novel branching scheme and genetic algorithm optimization"
@@ -27,6 +27,8 @@ math = false
 #caption = "My caption :smile:"
 
 +++
+
+This work has been published in <a href="https://ieeexplore.ieee.org/document/8658161">IEEE Transacations on Antennas and Propagation</a>
 
 Note: Although I have moved on to deep learning, I have really enjoyed working on 
 this computational-intelligence project!
@@ -60,7 +62,3 @@ in the first upper quartersphere of a radiation pattern. Can you believe that th
 could produce this pattern?
 
 <img src="/img/antenna/1_branched_sample.png" width="1000" height="1000">
-
-This project has been in place since I was an undergraduate. After many failed attempts, 
-we finally wrapped up in February 2018 and submitted to IEEE Transactions on Antennas
-and Propagation!

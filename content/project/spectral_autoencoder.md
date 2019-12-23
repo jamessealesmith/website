@@ -9,7 +9,7 @@ title = "Spectral Methods for Deep Convolutional AutoEncoders"
 summary = "Spectral pooling and upsampling techniques for deep convolutional autoencoders"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "DAE.pdf"
+image_preview = "DAE.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

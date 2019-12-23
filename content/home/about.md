@@ -34,8 +34,8 @@ weight = 5
 # Biography
 
 I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. I graduated with my 
-bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. My research involves lifelong machine learning using limited supervision. Specifically, I am working to build algorithms which can rapidly learn to identify new objects from a visual data stream with very few semantic queues. This will benefit any application involving real-time learning, such as autonomous vehicles or fraud detection and monitoring.
-My most recent project (under the direction of <a href="https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/">Constantine Dovrolis</a>) looks at learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks (<a href="https://arxiv.org/abs/1904.02021">click here for arXiv link</a>).
+bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. 
 
-Please {{% staticref "files/cv.pdf" "newtab" %}}read my CV{{% /staticref %}} for a complete overview of my work.
+My research involves lifelong machine learning using limited supervision. Specifically, I am working to build algorithms which can rapidly learn to identify new objects from a visual data stream with very few semantic queues. This will benefit any application involving real-time learning, such as autonomous vehicles or fraud detection and monitoring. <a href="https://arxiv.org/abs/1904.02021">My most recent project</a> (under the direction of <a href="https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/">Constantine Dovrolis</a>) looks at learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks.
 
+Please {{% staticref "files/cv.pdf" "newtab" %}}read my CV{{% /staticref %}} or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work.

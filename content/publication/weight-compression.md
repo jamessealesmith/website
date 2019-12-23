@@ -1,6 +1,6 @@
 +++
 title = "Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression"
-date = "2018-05-31"
+date = "2018-07-06"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["James S. Smith", "Bo Wu", "Bogdan M. Wilamoswki"]
@@ -17,7 +17,7 @@ authors = ["James S. Smith", "Bo Wu", "Bogdan M. Wilamoswki"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "accepted for publication in IEEE Transactions on Neural Networks and Learning Systems"
+publication = "IEEE Transactions on Neural Networks and Learning Systems"
 publication_short = "IEEE TNNLS"
 
 # Abstract and optional shortened version.
@@ -34,10 +34,9 @@ selected = true
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 projects = ["weight-compression"]
 
-# Links (optional).
-
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
+url_pdf = "https://ieeexplore.ieee.org/document/8405745"
 
 # Does the content use math formatting?
 math = true

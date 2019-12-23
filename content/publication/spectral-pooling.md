@@ -1,6 +1,6 @@
 +++
 title = "Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks"
-date = "2018-03-15"
+date = "2018-06-03"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["James S. Smith", "Bogdan M. Wilamoswki"]

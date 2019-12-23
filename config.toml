@@ -47,10 +47,10 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "jss0036@auburn.edu"
+  email = "jamessealesmith at gatech dot edu"
   # address = "Broun 468, Auburn University, AL, 36849, USA"
   # office_hours = "Monday 1:00 to 3:00 or email for appointment"
-  phone = "(256) 714-7168"
+  # phone = "(256) 714-7168"
   skype = ""
   telegram = ""
 
@@ -193,11 +193,6 @@ defaultContentLanguageInSubdir = false
     icon = "linkedin"
     icon_pack = "fa"
     link = "https://www.linkedin.com/in/jamessealesmith/"
-
-  [[params.social]]
-    icon = "zotero"
-    icon_pack = "ai"
-    link = "https://www.zotero.org/jamessealesmith"
 
   [[params.social]]
     icon = "github"

@@ -16,7 +16,6 @@ image_preview = "wc/neuron_ex.png"
 tags = ["deep-learning"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = ""
 
 # Does the project detail page use math formatting?
 math = false
@@ -27,26 +26,7 @@ math = false
 
 +++
 
-Difficult experiments in training neural networks often fail to converge due to what is 
-known as the flat spot problem, where the gradient of hidden neurons in the network 
-diminish in value, rending the weight update process ineffective. Whereas a first-order 
-algorithm can address this issue by learning parameters to normalize neuron activations, 
-second-order algorithms cannot afford additional parameters given that they include a 
-large Jacobian matrix calculation. 
-
-Our paper proposes Levenberg-Marquardt with Weight Compression (LM-WC), which combats 
-the flat spot problem by compressing neuron weights to push neuron activation out of 
-the saturated region and close to the linear region. Our algorithm requires no 
-additional learned parameters and contains an adaptable compression parameter, which is 
-adjusted to avoid training failure and increase the probability of neural network 
-convergence. Several experiments are presented and discussed in our paper to demonstrate the 
-success of LM-WC against standard Levenberg-Marquardt (LM) and LM with random restarts 
-on benchmark datasets for varying network architectures. Our results suggest that the 
-LM-WC algorithm can improve training success by ten times or more compared to other methods.
-
-Our paper has been accepted for publication in IEEE Transactions on Neural Networks 
-and Learning Systems! The link will be posted here when available. See below for a better 
-description of the flat spot problem:
+This work has been published in <a href="https://ieeexplore.ieee.org/document/8405745">IEEE Transactions on Neural Networks and Learning Systems</a>
 
 Training compact networks typically fail due to what is known as the flat spot
 problem. This is where a gradient-descent algorithm converges on a local optima due to

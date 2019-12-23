@@ -14,7 +14,9 @@ subtitle = ""
 weight = 50
 
 +++
-I was a Graduate Teaching Assistant for the following courses at Auburn University:
+I was a Graduate Teaching Assistant for <a href="https://www.ece.gatech.edu/courses/course_outline/ECE6258">ECE 6258</a>: Digital Image Processing at Georgia Tech (Fall 2018).
+
+Additionally, I was a Graduate Teaching Assistant for the following courses at Auburn University:
 
 - ELEC 2110: Electric Circuit Analysis (Summer 2017)
 - ELEC 2210: Digital Electronics (Fall 2017, Spring 2018)
