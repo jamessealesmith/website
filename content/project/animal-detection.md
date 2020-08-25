@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2014-06-15"
+date = "9999-06-15"
 
 # Project title.
 title = "Animal Detection with Deep Learning"

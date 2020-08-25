@@ -1,6 +1,6 @@
 baseurl = "https://jamessealesmith.github.io/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "James Smith"
-copyright = "&copy; 2017 James Smith"
+copyright = "&copy; 2020 James Smith"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -35,11 +35,11 @@ defaultContentLanguageInSubdir = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "classic"
+  font = "defaultb"
 
   # Your details.
   name = "James Smith"
-  role = "Graduate Student"
+  role = "PhD Student"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
@@ -185,19 +185,21 @@ defaultContentLanguageInSubdir = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "https://twitter.com/jamessealesmith"
+
+  [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:jss0036@auburn.edu"
+    link = "mailto:jamessealesmith@gatech.edu"
 
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
     link = "https://www.linkedin.com/in/jamessealesmith/"
 
-  [[params.social]]
-    icon = "github"
-    icon_pack = "fa"
-    link = "https://github.com/jamessealesmith"
+  
 
 
 # Navigation Links

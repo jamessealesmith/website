@@ -1,9 +1,9 @@
 +++
 title = "Unsupervised Progressive Learning and the STAM Architecture"
-date = "2019-04-03"
+date = "2020-05-10"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["James S. Smith", "Constantine Dovrolis"]
+authors = ["James S. Smith", "Seth Baer", "Cameron Taylor", "Constantine Dovrolis"]
 
 # Publication type.
 # Legend:

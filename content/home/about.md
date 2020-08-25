@@ -10,10 +10,9 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Continual/Lifelong Learning",
-    "Incremental Learning",
+    "Lifelong/Continual Learning",
     "Unsupervised/Semi-Supervised Learning",
-    "Generative Models"    
+    "Knowledge Distillation"    
   ]
 
 # List your qualifications (such as academic degrees).
@@ -27,15 +26,16 @@ weight = 5
   year = 2018
 [[education.courses]]
   course = "Bachelor of Electrical Engineering"
-  institution = "Auburn University"
+  institution = "Auburn University" 
   year = 2017
-+++
++++ 
 
 # Biography
 
+<div style="text-align: justify">
 I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. I graduated with my 
-bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. 
-
-My research involves lifelong machine learning using limited supervision. Specifically, I am working to build algorithms which can rapidly learn to identify new objects from a visual data stream with very few semantic queues. This will benefit any application involving real-time learning, such as autonomous vehicles or fraud detection and monitoring. <a href="https://arxiv.org/abs/1904.02021">My most recent project</a> (under the direction of <a href="https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/">Constantine Dovrolis</a>) looks at learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks.
-
-Please {{% staticref "files/cv.pdf" "newtab" %}}read my CV{{% /staticref %}} or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work.
+bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. Please {{% staticref "files/james_smith_cv.pdf" "newtab" %}}see my CV{{% /staticref %}} or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work.
+<br>
+<br>
+My research is focussed on lifelong/continual computer vision, where agents must learn continuously and adaptability from a visual data-stream which changes over time. This requires incremental knowledge acquisition and avoiding a phenomena termed "catastrophic forgetting," where deep neural networks overwrite information learned from previous experiences when learning a new task. In my most recent work (under review), we explore realistic semi-supervised continual learning, where data distributions reflect object class correlations between, and among, labeled and unlabeled data distributions. I am currently working on coreset-free online continual learning, where an agent must learn continuosly with no storage of past training examples (as required by many popular methods). This has important use cases such as data privacy, limited memory budgets, etc.
+</div>
