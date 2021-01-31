@@ -1,3 +1,5 @@
+rm -rf public
+hugo
 git add .
 git commit -m "SSCL"
 git push -u origin master
