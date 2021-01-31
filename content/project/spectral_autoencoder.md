@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2018-04-15"
+date = "99999-04-15"
 
 # Project title.
 title = "Spectral Methods for Deep Convolutional AutoEncoders"
@@ -13,7 +13,7 @@ image_preview = "DAE.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["deep-learning"]
+tags = ["other"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

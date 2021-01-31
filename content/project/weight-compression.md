@@ -13,7 +13,7 @@ image_preview = "wc/neuron_ex.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["deep-learning"]
+tags = ["other"]
 
 # Optional external URL for project (replaces project detail page).
 
@@ -26,7 +26,7 @@ math = false
 
 +++
 
-This work has been published in <a href="https://ieeexplore.ieee.org/document/8405745">IEEE Transactions on Neural Networks and Learning Systems</a>
+This work has been published in <a href="https://ieeexplore.ieee.org/document/8405745">IEEE Transactions on Neural Networks and Learning Systems</a>.
 
 Training compact networks typically fail due to what is known as the flat spot
 problem. This is where a gradient-descent algorithm converges on a local optima due to

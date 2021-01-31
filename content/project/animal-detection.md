@@ -13,7 +13,7 @@ image_preview = "animal_detect.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["deep-learning"]
+tags = ["other"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = "https://docs.google.com/document/d/1iC8N4RjFvCED4-SugGXBMtMFWmGjby4RjYIr21ilQgQ/edit?usp=sharing"

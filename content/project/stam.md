@@ -13,7 +13,7 @@ image_preview = "stam/upl.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["deep-learning"]
+tags = ["continual-learning","low-supervision"]
 
 # Optional external URL for project (replaces project detail page).
 # external_link = "https://arxiv.org/abs/1904.02021" 

@@ -29,12 +29,12 @@ filter_default = 0
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Continual Learning"
+  tag = ".continual-learning"
   
 [[filter]]
-  name = "Optimization"
-  tag = ".optimization"  
+  name = "Low Supervision"
+  tag = ".low-supervision"  
 
 [[filter]]
   name = "Other"

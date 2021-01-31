@@ -17,8 +17,8 @@ authors = ["James S. Smith", "Seth Baer", "Cameron Taylor", "Constantine Dovroli
 publication_types = ["3"]
 
 # Publication name and optional abbreviated version.
-publication = "arXiv prepring"
-publication_short = "arXiv"
+publication = "arXiv preprint arXiv:1904.02021"
+publication_short = "arXiv preprint arXiv:1904.02021"
 
 # Abstract and optional shortened version.
 abstract = "We first pose the Unsupervised Progressive Learning (UPL) problem: learning salient representations from a non-stationary stream of unlabeled data in which the number of object classes increases with time. If some limited labeled data is also available, those representations can be associated with specific classes, thus enabling classification tasks. To solve the UPL problem, we propose an architecture that involves an online clustering module, called Self-Taught Associative Memory (STAM). Layered hierarchies of STAM modules learn based on a combination of online clustering, novelty detection, forgetting outliers, and storing only prototypical representations rather than specific examples. The goal of this paper is to introduce the UPL problem, describe the STAM architecture, and evaluate the latter in the UPL context."
@@ -36,7 +36,7 @@ projects = ["stam"]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_pdf = "https://arxiv.org/abs/1904.02021"
+url_pdf = "https://arxiv.org/pdf/1904.02021.pdf"
 
 # Does the content use math formatting?
 math = true
