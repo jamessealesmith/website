@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "99999-04-15"
+date = "9999-06-15"
 
 # Project title.
 title = "Spectral Methods for Deep Convolutional AutoEncoders"
