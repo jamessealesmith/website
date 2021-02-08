@@ -27,7 +27,7 @@ math = false
 
 +++
 
-This project, </a> under the direction of <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>, looks at how a continual learning agent can leverage unlabeled data from its environment to mitigate forgetting. The paper is available <a href="https://arxiv.org/abs/2101.09536">on Arxiv</a>.
+This project, </a> under the direction of <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>, looks at how a continual learning agent can leverage unlabeled data from its environment to mitigate forgetting. The paper is available <a href="https://arxiv.org/abs/2101.09536">on Arxiv</a>. Supplementary material for our IJCNN 2021 submission is available {{% staticref "files/SSCL_IJCNN_2021_SM.pdf" "newtab" %}}at this link{{% /staticref %}}.
 
 The motivation for our work is that rehearsal is a critical component for class-incremental continual learning, yet it requires a substantial memory budget. Our work investigates whether we can significantly reduce this memory budget by leveraging unlabeled data from an agent’s environment in a realistic and challenging continual learning paradigm. Specifically, we explore and formalize a novel semi-supervised continual learning (SSCL) setting, where labeled data is scarce yet non-i.i.d. unlabeled data from the agent’s environment is plentiful (visualized below).
 
